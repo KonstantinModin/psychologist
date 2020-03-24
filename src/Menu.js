@@ -35,7 +35,7 @@ const Menu = () => {
                     </Nav.Link>
                 </Nav>
             </Navbar.Collapse>
-            <Navbar.Brand href="#home">Repudiandae necessita</Navbar.Brand>
+            <Navbar.Brand href="#home">Елена Власова</Navbar.Brand>
         </Navbar>
     );
 };

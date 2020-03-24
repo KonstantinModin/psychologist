@@ -28,6 +28,11 @@
     margin-top: 2rem;
 }
 
+#root > div > div > div > div.top > div > div > div.buttonRow button {
+    width: 15rem;
+    font-size: 1rem;
+}
+
 @media screen and (max-width: 700px) {
     .App .content .page .top .ava {
         width: 150px;
