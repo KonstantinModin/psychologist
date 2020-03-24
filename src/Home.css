@@ -1,0 +1,91 @@
+.App .content .page .top .ava {
+    border-radius: 2rem;
+    filter: brightness(0.7);
+}
+
+.App .content .page.home .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url("./img/mainCover.jpg") center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+#root > div > div > div > div.top > div > div > div:nth-child(1) > div.topText {
+    color: white;
+}
+
+#root > div > div > div > div.top > div > div > div:nth-child(1) > div.topText {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#root > div > div > div > div.top > div > div > div.buttonRow {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+    .App .content .page .top .ava {
+        width: 150px;
+        margin-bottom: 1rem;
+    }
+
+    .App .content .page .top .avaContainer {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .App .content .page.home .top {
+        justify-content: flex-end;
+    }
+
+    #root
+        > div
+        > div
+        > div
+        > div.top
+        > div
+        > div
+        > div:nth-child(1)
+        > div.topText
+        h1 {
+        font-size: 2rem;
+    }
+    #root
+        > div
+        > div
+        > div
+        > div.top
+        > div
+        > div
+        > div:nth-child(1)
+        > div.topText
+        h3 {
+        font-size: 1rem;
+    }
+    #root
+        > div
+        > div
+        > div
+        > div.top
+        > div
+        > div
+        > div:nth-child(1)
+        > div.topText
+        p {
+        font-size: 0.8rem;
+    }
+
+    .App .content .page .top button {
+        padding: 0.5rem;
+        width: 100%;
+    }
+
+    #root > div > div > div > div.top > div > div > div.buttonRow {
+        margin-top: 0.5rem;
+    }
+}

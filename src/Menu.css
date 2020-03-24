@@ -1,0 +1,12 @@
+.App nav {
+    background-color: rgba(255, 255, 255, 0.301);
+    /* border: 1px solid red; */
+}
+
+.App nav > div > div a {
+    color: white !important;
+}
+
+.App nav a {
+    color: white !important;
+}
