@@ -1,0 +1,18 @@
+.App footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(70, 92, 94);
+    color: white;
+    padding: 2rem;
+}
+
+.App footer .colums {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.App footer .copy {
+    margin: auto;
+    padding-top: 1rem;
+}

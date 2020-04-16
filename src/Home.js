@@ -76,9 +76,9 @@ const Home = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-            <div>
+            {/* <div>
                 <h1>Next</h1>
-            </div>
+            </div> */}
         </div>
     );
 };
