@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
 import "./Menu.css";
 
@@ -35,7 +35,11 @@ const Menu = () => {
                     </Nav.Link>
                 </Nav>
             </Navbar.Collapse>
-            <Navbar.Brand href="#home">Елена Власова</Navbar.Brand>
+            <Navbar.Brand>
+                <Nav.Link as={Link} to="/" exact>
+                    Елена Власова
+                </Nav.Link>
+            </Navbar.Brand>
         </Navbar>
     );
 };
