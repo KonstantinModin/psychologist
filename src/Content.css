@@ -1,4 +1,9 @@
 .App .content .pageN {
-    padding-top: 5rem;
+    padding: 6rem 3rem 4rem 3rem;
     background-color: dimgray;
+}
+
+.App .content .pageN img {
+    width: 600px;
+    padding: 2rem;
 }
